@@ -1,0 +1,45 @@
+.icon-change {
+	background: #ebeb5c;
+}
+.icon-change:hover{
+	color: red;
+}
+
+#first{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	
+}
+.carousel-item {
+	background: #d66c6c;
+		transition: all linear .20s;
+}
+.carousel-item img{
+	border-radius: 50%;
+	border: 1px solid red;
+
+}
+/*card shasow started*/
+.card-shadow{
+		transition: all linear .3s;
+	border: 5px solid #f3e9e9;
+	
+}
+
+.card-shadow:hover{
+	
+	
+	box-shadow: 2px 15px 20px 4px black;
+}
+
+
+
+/*responsive started*/
+
+
+@media(max-width:1024px){
+	.two{
+		visibility: hidden;
+}
+}
